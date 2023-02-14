@@ -3,14 +3,14 @@ import Details from './pages/details'
 import Search from './pages/search'
 
 function App() {
-    return (
-        <>
-            <Routes>
-                <Route path="/" exact element={<Search />} />
-                <Route path="/search/:id" element={<Details />} />
-            </Routes>
-        </>
-    )
+  return (
+    <>
+      <Routes>
+        <Route path="/" exact element={<Search />} />
+        <Route path="/search/:nasaId" element={<Details />} />
+      </Routes>
+    </>
+  )
 }
 
 export default App
